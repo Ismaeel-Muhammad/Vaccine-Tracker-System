@@ -12,3 +12,10 @@ This repository showcases a project focused on the application of data structure
     Trie Data Structure: The Trie is used as the primary data structure for storing the population dataset. Its constant time complexity for operations ensures fast and efficient data manipulation.
 
     SSN Processing: The project implements operations on the 14-digit SSN strings, processing each digit individually. Despite the sequential nature of the operation, the Trie's design allows for constant time complexity per digit, effectively reducing the overall complexity to O(1).
+
+Using an appropriate data structure to store the dataset and apply operations such as search, update, and delete.
+
+The data structure used for the main dataset of the population of Egypt (dummy values) was:
+"Trie" with the runtime complexity of O(1)
+
+The interactions are done by the SSN aka Egyptian National ID which is a 14-number String each number at a time with runtime complexity O(1) so for the 14 numbers it takes O(14) => O(1).
